@@ -30,7 +30,7 @@ class TestClient:
 
     def test_size(self):
         result = self.client.size()
-        assert result == b'2\n'
+        assert result == b'1\n'
 
     def test_ping(self):
         result = self.client.ping()
