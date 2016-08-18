@@ -9,29 +9,29 @@ class TestClient:
 
     def test_set(self):
         result = self.client.set('foo', 'bar')
-        assert result == 'bar'
+        assert result == b'bar'
 
     def test_get(self):
         result = self.client.get('foo')
-        assert result == 'bar'
+        assert result == b'bar'
 
     def test_delete(self):
         result = self.client.delete('foo')
-        assert result == 'bar'
+        assert result == b'bar'
 
     def test_append(self):
         self.client.set('list', 'foo,bar')
         result = self.client.append('list', 'lol')
-        assert result == '["foo", "bar", "lol"]'
+        assert result == b'["foo", "bar", "lol"]'
 
     def test_pop(self):
         result = self.client.pop('list')
-        assert result == 'lol'
+        assert result == b'lol'
 
     def test_size(self):
         result = self.client.size()
-        assert result == '1'
+        assert result == b'1'
 
     def test_ping(self):
         result = self.client.ping()
-        assert result == 'pong'
+        assert result == b'pong'

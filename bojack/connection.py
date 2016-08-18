@@ -30,4 +30,4 @@ class Socket:
             data += self.socket.recv(1024)
             if data.endswith(b'\n'):
                 break
-        return data.decode('utf-8').strip()
+        return data.strip()
