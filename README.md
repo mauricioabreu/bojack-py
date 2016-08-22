@@ -22,6 +22,14 @@ b'bar'
 b'bar'
 ```
 
+## Tests
+
+To run the test suite locally before TravisCI you can run the following command:
+
+```
+python setup.py test
+```
+
 ## Contributing
 
 Found a bug? Have a suggestion? Please [open an issue](https://github.com/mauricioabreu/bojack-py/issues/new).
