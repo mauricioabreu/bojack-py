@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='bojack',
-    version='0.1.0',
+    version='0.1.1',
     url='https://github.com/mauricioabreu/bojack-py',
     license='MIT',
     description='BoJack client written in Python',

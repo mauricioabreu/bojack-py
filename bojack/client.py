@@ -41,6 +41,11 @@ class Client:
         self.socket.puts(command)
         return self.socket.gets()
 
+    def increment(self, key):
+        command = 'increment {key}'.format(key=key)
+        self.socket.puts(command)
+        return self.socket.gets()
+
     def size(self):
         self.socket.puts('size')
         return self.socket.gets()
