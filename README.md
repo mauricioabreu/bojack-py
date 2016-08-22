@@ -1,4 +1,4 @@
-# BoJack client written in Python
+# BoJack client written in Python [![Build Status](https://travis-ci.org/mauricioabreu/bojack-py.svg?branch=master)](https://travis-ci.org/mauricioabreu/bojack-py)
 
 A Python interface to the [BoJack](https://github.com/marceloboeira/bojack) in-memory key value store.
 
