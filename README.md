@@ -7,7 +7,7 @@ A Python interface to the [BoJack](https://github.com/marceloboeira/bojack) in-m
 Python 3.4+
 
 ```
-pip install bojack-py
+pip install bojack
 ```
 
 ## Usage
